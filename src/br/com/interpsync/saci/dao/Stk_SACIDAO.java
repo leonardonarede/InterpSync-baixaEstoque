@@ -45,7 +45,7 @@
 /* 45:   */   public Stk_SACI getEstoque(String codigo)
 /* 46:   */     throws ClassNotFoundException, SQLException, Exception
 /* 47:   */   {
-/* 48:49 */     String sql = "SELECT storeno, prdno, qtty_varejo, lastchangedt FROM stk    WHERE storeno = 1 and prdno = ?";
+/* 48:49 */     String sql = "SELECT storeno, prdno, qtty_varejo, lastchangedt FROM stk    WHERE storeno = 4 and prdno = ?";
 /* 49:   */     
 /* 50:51 */     PreparedStatement stmt = getConnection().prepareStatement(sql);
 /* 51:52 */     stmt.setString(1, codigo);
