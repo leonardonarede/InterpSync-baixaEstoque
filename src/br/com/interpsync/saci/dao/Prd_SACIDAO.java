@@ -44,7 +44,7 @@
 /* 44:   */   public String localizarPorCampo(String tipo, String codigotipo)
 /* 45:   */     throws ClassNotFoundException, SQLException, Exception
 /* 46:   */   {
-/* 47:48 */     String sql = "SELECT prd.no AS Produto FROM prd WHERE free_fld1 = ? AND prd.groupno IN (020000,030000)";
+/* 47:48 */     String sql = "SELECT prd.no AS Produto FROM prd WHERE free_fld1 = ? AND prd.groupno IN (800000,330000)";
 /* 48:   */     
 /* 49:50 */     PreparedStatement stmt = getConnection().prepareStatement(sql);
 /* 50:51 */     stmt.setString(1, tipo + '/' + codigotipo);

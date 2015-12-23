@@ -147,7 +147,7 @@ import java.io.IOException;
 /*  86:    */           
 /*  87: 88 */           Stkmov_SACI movimento = new Stkmov_SACI();
 /*  88: 89 */           movimento.setXano(new Xa_SACIDAO().NovaTrans());
-/*  89: 90 */           movimento.setStoreno(Integer.valueOf(1));
+/*  89: 90 */           movimento.setStoreno(Integer.valueOf(4));
 /*  90: 91 */           movimento.setPrdno(Produto);
 /*  91: 92 */           movimento.setRemarks("BAIXA DE EST PRODUCAO OS: "+osvr.getNrOS());
 /*  92: 93 */           movimento.setQtty(Long.valueOf(qtdOS.multiply(new BigDecimal(-1000)).longValue()));
